@@ -44,6 +44,7 @@ CruX gives users a personalized, clutter-free, and AI-powered news experience:
 
 ---
 
+
 ## 📌 Gen-AI Implementation Details
 
 ###  Prompting
@@ -100,6 +101,7 @@ This avoids hallucination and makes answers grounded in facts.
 
 ---
 
+
 ##  Local Setup
 
 ```bash
@@ -107,3 +109,4 @@ git clone https://github.com/kalviumcommunity/CruX
 cd crux
 npm install
 npm run dev
+
