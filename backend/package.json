@@ -1,0 +1,24 @@
+{
+  "name": "crux-backend",
+  "version": "1.0.0",
+  "description": "Backend API for CruX",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean && npm run lint",
+    "prestart": "npm run build"
+  },
+  "keywords": ["news", "ai", "typescript", "express", "mongodb"],
+  "author": "Hardik Tailor",
+  "license": "MIT"
+}
